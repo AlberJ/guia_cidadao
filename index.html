@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guia do cidadão</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap4/css/bootstrap.min.css" />
+    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body onload="carrega_array()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><img class="card-img guia-img" src="1127800-travel/png/050-guide-book-1.png" alt="Guia do cidadão"> Guia do cidadão</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <ul class="nav justify-content-center" id="nav2">
+        <li class="nav-item">
+            <a class="nav-link disabled" id="limpa" href="#">Limpar seleção</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="btn-arvore" href="#">Árvore</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="btn-lixo" href="#">Lixo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="btn-exemplo" href="#">Exemplo</a>
+        </li>
+    </ul>
+
+    <div class="row justify-content-around">
+        <div class="card col10 col-sm-5 col-md-4 col-lg-3">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <img class="card-img my-card-img" src="226663-ecology/226663-ecology/png/tree.png" alt="arvore">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Árvore</h5>
+                        <p class="card-text">Some quick e
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary saiba">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card col10 col-sm-5 col-md-4 col-lg-3">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <img class="card-img my-card-img" src="902514-ecology/png/012-recycle-bin.png" alt="lixo reciclado">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lixo</h5>
+                        <p class="card-text">Some quick example text totent.</p>
+                        <a href="#" class="btn btn-primary saiba">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card col10 col-sm-5 col-md-4 col-lg-3">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <img class="card-img my-card-img" src="226663-ecology/226663-ecology/png/tree.png" alt="arvore">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Exemplo</h5>
+                        <p class="card-text">Some quick example text to build on
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary saiba">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- https://www.flaticon.com/search?word=tree -->
